@@ -1,0 +1,74 @@
+{
+  "version": "1.0",
+  "lastUpdated": "2024-12-11T12:00:00Z",
+  "adPlacements": [
+    {
+      "id": "ad-001",
+      "title": "Winter Collection Sale",
+      "description": "Cozy essentials for the cold season",
+      "primaryCopy": "Stay warm and stylish with up to 40% off our entire winter collection",
+      "secondaryCopy": "Free shipping on orders over $100",
+      "imageUrl": "/api/placeholder/600/400",
+      "imageAlt": "Winter Collection Featured Items",
+      "cta": {
+        "text": "Shop Now",
+        "url": "https://example.com/winter-sale"
+      },
+      "promoCode": "WINTER40",
+      "validUntil": "2024-12-31",
+      "category": "seasonal",
+      "priority": 1
+    },
+    {
+      "id": "ad-002",
+      "title": "New Arrival: Eco-Friendly Activewear",
+      "description": "Sustainable performance wear made from recycled materials",
+      "primaryCopy": "Look good, feel good, do good with our sustainable activewear line",
+      "secondaryCopy": "Made from 100% recycled ocean plastics",
+      "imageUrl": "/api/placeholder/600/400",
+      "imageAlt": "Eco-Friendly Activewear Collection",
+      "cta": {
+        "text": "Discover More",
+        "url": "https://example.com/eco-activewear"
+      },
+      "promoCode": "ECOSAVE20",
+      "validUntil": "2024-12-31",
+      "category": "new-arrivals",
+      "priority": 2
+    },
+    {
+      "id": "ad-003",
+      "title": "Gift Cards - The Perfect Present",
+      "description": "Give the gift of choice this holiday season",
+      "primaryCopy": "Let them choose their perfect gift with our digital gift cards",
+      "secondaryCopy": "Instant delivery, valid for 12 months",
+      "imageUrl": "/api/placeholder/600/400",
+      "imageAlt": "Digital Gift Card",
+      "cta": {
+        "text": "Buy Gift Card",
+        "url": "https://example.com/gift-cards"
+      },
+      "promoCode": null,
+      "validUntil": null,
+      "category": "gift",
+      "priority": 3
+    },
+    {
+      "id": "ad-004",
+      "title": "Limited Edition Accessories",
+      "description": "Handcrafted leather goods from local artisans",
+      "primaryCopy": "Exclusive collection of premium leather accessories",
+      "secondaryCopy": "Limited quantities available",
+      "imageUrl": "/api/placeholder/600/400",
+      "imageAlt": "Limited Edition Leather Accessories",
+      "cta": {
+        "text": "Shop Collection",
+        "url": "https://example.com/limited-edition"
+      },
+      "promoCode": "LIMITED25",
+      "validUntil": "2024-12-20",
+      "category": "limited-edition",
+      "priority": 4
+    }
+  ]
+}
