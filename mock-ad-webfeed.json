@@ -1,74 +1,55 @@
-{
-  "version": "1.0",
-  "lastUpdated": "2024-12-11T12:00:00Z",
-  "adPlacements": [
-    {
-      "id": "ad-001",
-      "title": "Winter Collection Sale",
-      "description": "Cozy essentials for the cold season",
-      "primaryCopy": "Stay warm and stylish with up to 40% off our entire winter collection",
-      "secondaryCopy": "Free shipping on orders over $100",
-      "imageUrl": "/api/placeholder/600/400",
-      "imageAlt": "Winter Collection Featured Items",
-      "cta": {
-        "text": "Shop Now",
-        "url": "https://example.com/winter-sale"
-      },
-      "promoCode": "WINTER40",
-      "validUntil": "2024-12-31",
-      "category": "seasonal",
-      "priority": 1
-    },
-    {
-      "id": "ad-002",
-      "title": "New Arrival: Eco-Friendly Activewear",
-      "description": "Sustainable performance wear made from recycled materials",
-      "primaryCopy": "Look good, feel good, do good with our sustainable activewear line",
-      "secondaryCopy": "Made from 100% recycled ocean plastics",
-      "imageUrl": "/api/placeholder/600/400",
-      "imageAlt": "Eco-Friendly Activewear Collection",
-      "cta": {
-        "text": "Discover More",
-        "url": "https://example.com/eco-activewear"
-      },
-      "promoCode": "ECOSAVE20",
-      "validUntil": "2024-12-31",
-      "category": "new-arrivals",
-      "priority": 2
-    },
-    {
-      "id": "ad-003",
-      "title": "Gift Cards - The Perfect Present",
-      "description": "Give the gift of choice this holiday season",
-      "primaryCopy": "Let them choose their perfect gift with our digital gift cards",
-      "secondaryCopy": "Instant delivery, valid for 12 months",
-      "imageUrl": "/api/placeholder/600/400",
-      "imageAlt": "Digital Gift Card",
-      "cta": {
-        "text": "Buy Gift Card",
-        "url": "https://example.com/gift-cards"
-      },
-      "promoCode": null,
-      "validUntil": null,
-      "category": "gift",
-      "priority": 3
-    },
-    {
-      "id": "ad-004",
-      "title": "Limited Edition Accessories",
-      "description": "Handcrafted leather goods from local artisans",
-      "primaryCopy": "Exclusive collection of premium leather accessories",
-      "secondaryCopy": "Limited quantities available",
-      "imageUrl": "/api/placeholder/600/400",
-      "imageAlt": "Limited Edition Leather Accessories",
-      "cta": {
-        "text": "Shop Collection",
-        "url": "https://example.com/limited-edition"
-      },
-      "promoCode": "LIMITED25",
-      "validUntil": "2024-12-20",
-      "category": "limited-edition",
-      "priority": 4
-    }
-  ]
-}
+[
+  {
+    "id": "AD-WINTER-001",
+    "title": "Winter Collection Sale Bundle",
+    "link": "https://example.com/products/winter-collection-bundle",
+    "description": "Premium winter essentials bundle featuring our bestselling cold-weather gear. Includes insulated jacket, merino wool scarf, and thermal gloves. Available in multiple sizes and colors.",
+    "price": 199.99,
+    "image_link": "https://example.com/images/winter-bundle-2024.jpg",
+    "categories": ["seasonal", "winter", "bundle", "featured"],
+    "inventory_quantity": 50,
+    "inventory_policy": 1,
+    "sale_price": 159.99,
+    "brand": "WinterCo",
+    "availability": "in stock"
+  },
+  {
+    "id": "AD-ECO-002",
+    "title": "Eco-Friendly Performance Kit",
+    "link": "https://example.com/products/eco-performance-kit",
+    "description": "Sustainable activewear set made from recycled ocean plastics. Features moisture-wicking technology and UV protection. Includes performance top and leggings.",
+    "price": 120.00,
+    "image_link": "https://example.com/images/eco-kit-2024.jpg",
+    "categories": ["activewear", "sustainable", "new-arrival"],
+    "inventory_quantity": 75,
+    "inventory_policy": 1,
+    "brand": "EcoFit",
+    "availability": "in stock"
+  },
+  {
+    "id": "AD-GIFT-003",
+    "title": "Digital Gift Card",
+    "link": "https://example.com/products/gift-card",
+    "description": "Give the perfect gift with our digital gift card. Instantly delivered via email, valid for 12 months on all products. Available in denominations from $25 to $500.",
+    "price": 100.00,
+    "image_link": "https://example.com/images/gift-card-2024.jpg",
+    "categories": ["gift-card", "digital", "featured"],
+    "inventory_quantity": 999,
+    "inventory_policy": 1,
+    "availability": "in stock"
+  },
+  {
+    "id": "AD-LEATHER-004",
+    "title": "Artisan Leather Collection",
+    "link": "https://example.com/products/artisan-leather-set",
+    "description": "Limited edition leather accessories set handcrafted by local artisans. Includes premium leather wallet, card holder, and key fob. Available in tan or black.",
+    "price": 249.99,
+    "image_link": "https://example.com/images/leather-set-2024.jpg",
+    "categories": ["accessories", "leather", "limited-edition"],
+    "inventory_quantity": 25,
+    "inventory_policy": 1,
+    "sale_price": 199.99,
+    "brand": "ArtisanCraft",
+    "availability": "limited stock"
+  }
+]
